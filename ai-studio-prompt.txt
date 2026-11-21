@@ -1,0 +1,12 @@
+Build this as my collection app in Google AI Studio. Use the attached index.html as the exact starting point — do not rebuild it from scratch.
+
+It is called Hush Collection, Build v2026.11.20.4. Tabs: All, Comics, Cards, Toys. Add items with photo, title, series/set/line, issue/card number, year, publisher/brand, condition, CGC/PSA grade, paid vs est. value. Totals bar at top. Per-item auctions with starting bid, optional reserve, countdown, bid history, Mark sold. JSON backup/restore and CSV export. 3 sample items.
+
+Most important — Snap & Price: a big "Snap it — check price" button. It takes a photo with the camera, then has a big 'Identify with Lens' button that shares the photo to the Google Lens app on the phone using navigator.share with the image file (fallback: download the photo and open lens.google.com/upload), plus Bing Visual / eBay Camera buttons, a title field, then a price row for every selling site for that type. Tapping a site opens its sold listings for that title. The user types in the sold price they see on each site, the app shows low / high / average, and Save uses the average as the est. value. Each saved item also has a Price button that re-opens Snap & Price pre-filled.
+
+Marketplace links on every item, pre-filled search:
+- Comics: eBay Sold, eBay, MyComicShop, Heritage, Whatnot, Mercari
+- Cards: eBay Sold, TCGplayer, PriceCharting, eBay, COMC, Whatnot, Mercari
+- Toys: eBay Sold, eBay, Mercari, Whatnot, Amazon, ToyWiz
+
+Keep it one file, phone-first, dark with gold, no sign-in. Bidding and checkout happen on the marketplace site — just link out with the search pre-filled.
